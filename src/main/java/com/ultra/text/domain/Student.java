@@ -11,6 +11,16 @@ package com.ultra.text.domain;
 public class Student {
     private String name;
 
+    private String stuId;
+
+    public String getStuId() {
+        return stuId;
+    }
+
+    public void setStuId(String stuId) {
+        this.stuId = stuId;
+    }
+
     public String getName() {
         return name;
     }
